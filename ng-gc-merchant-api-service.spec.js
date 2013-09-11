@@ -17,6 +17,8 @@ describe('MerchantApiServiceSpec', function(){
   it('#findOne', function() {
     $httpBackend.expectGET('/api/merchant').respond(200);
     MerchantApiService.findOne();
+    // Cached
+    MerchantApiService.findOne();
   });
 
 });

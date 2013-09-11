@@ -9,7 +9,7 @@ angular.module('ngGcMerchantApiService', [
     return HttpFactory.create({
       url: '/api/merchant'
     }, {
-      'findOne': { method: 'GET' }
+      'findOne': { method: 'GET', cache: true }
     });
 
   }
