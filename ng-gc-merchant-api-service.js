@@ -2,9 +2,9 @@
 
 angular.module('ngGcMerchantApiService', [
   'ngHttpFactory'
-]).factory('MerchantService', [
+]).factory('MerchantApiService', [
   'HttpFactory',
-  function MerchantService(HttpFactory) {
+  function MerchantApiService(HttpFactory) {
 
     return HttpFactory.create({
       url: '/api/merchant'

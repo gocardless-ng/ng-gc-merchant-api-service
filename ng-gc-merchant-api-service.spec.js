@@ -1,11 +1,11 @@
 'use strict';
 
-describe('MerchantServiceSpec', function(){
+describe('MerchantApiServiceSpec', function(){
   beforeEach(module('ngGcMerchantApiService'));
-  var MerchantService, $httpBackend;
+  var MerchantApiService, $httpBackend;
 
   beforeEach(inject(function($injector) {
-    MerchantService = $injector.get('MerchantService');
+    MerchantApiService = $injector.get('MerchantApiService');
     $httpBackend = $injector.get('$httpBackend');
   }));
 
@@ -16,7 +16,7 @@ describe('MerchantServiceSpec', function(){
 
   it('#findOne', function() {
     $httpBackend.expectGET('/api/merchant').respond(200);
-    MerchantService.findOne();
+    MerchantApiService.findOne();
   });
 
 });
