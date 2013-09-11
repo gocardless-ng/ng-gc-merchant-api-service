@@ -1,12 +1,12 @@
 {
-  "name": "ng-gc-merchant-service",
+  "name": "ng-gc-merchant-api-service",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/gocardless-ng/ng-gc-merchant-service.git"
+    "url": "git://github.com/gocardless-ng/ng-gc-merchant-api-service.git"
   },
   "bugs": {
-    "url": "http://github.com/gocardless-ng/ng-gc-merchant-service/issues"
+    "url": "http://github.com/gocardless-ng/ng-gc-merchant-api-service/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngGcMerchantService', [
+angular.module('ngGcMerchantApiService', [
   'ngHttpFactory'
 ]).factory('MerchantService', [
   'HttpFactory',

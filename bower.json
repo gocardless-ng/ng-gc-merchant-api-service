@@ -1,7 +1,7 @@
 {
-  "name": "ng-gc-merchant-service",
+  "name": "ng-gc-merchant-api-service",
   "version": "0.1.0",
-  "main": "ng-gc-merchant-service.js",
+  "main": "ng-gc-merchant-api-service.js",
   "dependencies": {
     "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
     "ng-http-factory": "git@github.com:gocardless/ng-http-factory.git"

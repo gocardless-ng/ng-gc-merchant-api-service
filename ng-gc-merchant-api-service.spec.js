@@ -1,7 +1,7 @@
 'use strict';
 
 describe('MerchantServiceSpec', function(){
-  beforeEach(module('ngGcMerchantService'));
+  beforeEach(module('ngGcMerchantApiService'));
   var MerchantService, $httpBackend;
 
   beforeEach(inject(function($injector) {

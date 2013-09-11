@@ -18,7 +18,7 @@ module.exports = function(config) {
       // Specs helpers
       'components/jasmine-helpers/*.js',
 
-      'ng-gc-merchant-service*.js'
+      'ng-gc-merchant-api-service*.js'
     ],
 
 
